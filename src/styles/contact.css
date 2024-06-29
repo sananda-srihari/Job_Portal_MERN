@@ -1,0 +1,134 @@
+/* styles/contact.css */
+
+/* General styles for the Contact page */
+.contact-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 30px;
+}
+
+.contact-hero-section {
+    background-color: #007bff;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.contact-hero-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.contact-hero-section p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.contact-form-section {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+.contact-form-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form-submit {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.contact-form-submit:hover {
+    background-color: #0056b3;
+}
+
+.contact-info-section {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+.contact-info-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-info-item {
+    font-size: 1.1em;
+}
+
+.contact-info-item h3 {
+    margin-bottom: 5px;
+    color: #007bff;
+}
+
+.contact-info-item p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info-item p a:hover {
+    text-decoration: underline;
+}
+
+.contact-map-section {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-map-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.map-container {
+    width: 100%;
+    height: 300px;
+}

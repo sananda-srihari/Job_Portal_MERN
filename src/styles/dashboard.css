@@ -1,0 +1,6 @@
+/* Dashboard styles */
+#applicant-dashboard, #recruiter-dashboard {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
