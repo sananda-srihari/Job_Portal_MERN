@@ -1,7 +1,5 @@
-/* styles/blogPost.css */
-
-/* Container for individual blog posts */
 .blog-post-container {
+    background-image: url('../assets/full-time-jobs-background.jpg');
     font-family: Arial, sans-serif;
     color: #333;
     background-color: #fff;
@@ -22,7 +20,7 @@
 .blog-post-title {
     font-size: 2em;
     margin-bottom: 20px;
-    color: #007bff; /* Primary color */
+    color: rgb(41, 62, 138); 
     text-align: center;
 }
 
@@ -47,7 +45,7 @@
 }
 
 .blog-post-content a {
-    color: #007bff;
+    color: rgb(41, 62, 138);
     text-decoration: none;
     font-weight: bold;
 }
@@ -62,7 +60,7 @@
 }
 
 .blog-post-footer a {
-    color: #007bff;
+    color: rgb(41, 62, 138);
     text-decoration: none;
     font-weight: bold;
 }
