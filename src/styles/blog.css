@@ -1,57 +1,58 @@
-/* styles/blog.css */
+.page-background {
+    background-image: url('../assets/full-time-jobs-background.jpg');
+    background-size: cover;
+    height: 72vh;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+    color: rgb(138, 77, 161);
+}
 
-/* General styles for the Blog page */
 .blog-container {
-    font-family: Arial, sans-serif;
-    color: #333;
-    background-color: #f4f4f4;
-    padding: 30px;
+    background: rgba(112, 95, 122, 0.7);  
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 2rem auto;
 }
 
 .blog-hero-section {
-    background-color: #007bff;
-    color: #fff;
-    padding: 50px 20px;
     text-align: center;
-    border-radius: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
 }
 
 .blog-hero-section h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .blog-hero-section p {
-    font-size: 1.2em;
-    margin: 0;
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #f0f0f0;
 }
 
 .blog-posts-section {
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 10px;
-}
-
-.blog-posts-section h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    color: #007bff;
+    margin-bottom: 2rem;
 }
 
 .blog-posts-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 1.5rem;
+    justify-content: center;
 }
 
 .blog-post-card {
-    background-color: #f9f9f9;
+    background-color: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    width: 100%;
-    max-width: 400px;
+    width: 300px;
+    text-align: center;
+    color: #fff;
 }
 
 .blog-post-image {
@@ -61,23 +62,23 @@
 }
 
 .blog-post-content {
-    padding: 20px;
+    padding: 1rem;
 }
 
 .blog-post-title {
-    font-size: 1.5em;
-    margin: 0 0 10px;
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
 }
 
 .blog-post-excerpt {
-    font-size: 1em;
-    margin-bottom: 10px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
 }
 
 .blog-post-link {
-    color: #007bff;
+    font-size: 1rem;
+    color: #ffd700;
     text-decoration: none;
-    font-weight: bold;
 }
 
 .blog-post-link:hover {
